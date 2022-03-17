@@ -2,7 +2,7 @@ const listOff = document.querySelector("#listOff");
 const listPop = document.querySelector("#listPop");
 
 document.addEventListener("DOMContentLoaded", async () => {    
-    const url = await fetch("http://localhost:4001/productos");
+    const url = await fetch("https://api1207.herokuapp.com/productos");
     const data = await url.json();
 
     showData(data)

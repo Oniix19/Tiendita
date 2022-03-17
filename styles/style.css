@@ -202,7 +202,6 @@ header{
 
 .list{
     background-color: var(--white);
-    /* background-color: yellow; */
     margin: 3% 2.5%;
     max-width: 95%;
     height: 30rem;
@@ -211,7 +210,6 @@ header{
     overflow-x:auto;
 }
 p{
-    /* background-color: crimson; */
     height: 10rem;
     width: 17rem;
     margin: 0;
@@ -220,11 +218,9 @@ p{
     height: 27.5rem;
 }
 .headerList{
-    /* background-color: blue; */
     padding: 0.5% 5%;
 }
 .divListOffer, .divListPop{
-    /* background-color: orange; */
     height: 82%;
     width: 16rem;
     border-radius: 15px;
@@ -232,7 +228,6 @@ p{
     display: flex;
 }
 .listContainer{
-    /* background-color: blue; */
     color: black;
     margin: 0 2.5% ;
     padding: 0.5% 0;
@@ -247,13 +242,10 @@ p{
     padding: 1%;
     border-radius: 15px;
 }
-
 .imgList{
-    /* background-color: aquamarine; */
     margin: 7.5%;
 }
 .divPrice{
-    /* background-color: red; */
     padding: 0%;
     display: flex;
 }
@@ -266,12 +258,10 @@ p{
     color: var(--boulder);
 }
 .h4List{
-    /* background-color: aquamarine; */
     width: 180px;
     margin: 5% 0;
 }
 .h5List{
-    /* background-color: aquamarine; */
     width: 180px;
     color: var(--boulder);
     margin: 1% 0;
@@ -287,13 +277,6 @@ p{
     width: 90%;
     font-size: 115%;
 }
-
-
-
-
-
-
-
 
 @media(max-width: 375px){
     body{
