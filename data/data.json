@@ -1,0 +1,128 @@
+{
+    "productos":[
+        {
+            "id": 1,
+            "porcentaje": 32,
+            "poster": "./imgs/ofertas/pr1.png",
+            "precio": 39.90,
+            "nombre": "Limon"            
+        },
+        {
+            "id": 2,
+            "porcentaje": 32,
+            "poster": "./imgs/ofertas/pr2.png",
+            "precio": 32.90,
+            "nombre": "Tomate"            
+        },
+        {
+            "id": 3,
+            "porcentaje": 18,
+            "poster": "./imgs/ofertas/pr3.png",
+            "precio": 69.90,
+            "nombre": "Aguacate"
+        },
+        {
+            "id": 4,
+            "porcentaje": 13,
+            "poster": "./imgs/ofertas/pr4.png",
+            "precio": 29.90,
+            "nombre": "Napal"
+        },
+        {
+            "id": 5,
+            "porcentaje": 8,
+            "poster": "./imgs/ofertas/pr5.png",
+            "precio": 29.90,
+            "nombre": "Tomate verde"
+        },
+        {
+            "id": 6,
+            "porcentaje": 10,
+            "poster": "./imgs/ofertas/pr6.png",
+            "precio": 39.90,
+            "nombre": "Cocacola sin azucar"
+        },
+        {
+            "id": 7,
+            "porcentaje": 10,
+            "poster": "./imgs/ofertas/pr7.png",
+            "precio": 35.90,
+            "nombre": "Cocacola"
+        },
+        {
+            "id": 8,
+            "porcentaje": 5,
+            "poster": "./imgs/ofertas/pr8.png",
+            "precio": 19.90,
+            "nombre": "Naranja"
+        },
+
+
+
+        
+        {
+            "id": 9,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr1.png",
+            "precio": 62.50,
+            "nombre": "Pechuga de pavo",
+            "contenido": 250
+        },
+        {
+            "id": 10,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr2.png",
+            "precio": 38.90,
+            "nombre": "Pan Bimbo",
+            "contenido": 680
+        },
+        {
+            "id": 11,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr3.png",
+            "precio": 48.50,
+            "nombre": "Mc Cormick Mayonesa",
+            "contenido": 507
+        },
+        {
+            "id": 12,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr4.png",
+            "precio": 35.50,
+            "nombre": "Colgate",
+            "contenido": 125
+        },
+        {
+            "id": 13,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr5.png",
+            "precio": 37.50,
+            "nombre": "Huevos",
+            "contenido": 180
+        },
+        {
+            "id": 14,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr6.png",
+            "precio": 26.90,
+            "nombre": "Fabuloso",
+            "contenido": 2000
+        },
+        {
+            "id": 15,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr7.png",
+            "precio": 35.90,
+            "nombre": "Jitomate",
+            "contenido": 205
+        },
+        {
+            "id": 16,
+            "porcentaje": 0,
+            "poster": "./imgs/popular/pr8.png",
+            "precio": 24.90,
+            "nombre": "Manzana",
+            "contenido": 280
+        }
+    ]
+}

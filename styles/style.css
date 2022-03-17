@@ -1,0 +1,354 @@
+:root{
+    --white: #FEFEFE;
+    --white-bg: #FAFAF8;
+    --malachita: #0AC763;
+    --silver: #BDBCBC;
+    --boulder: #B8B4B4;
+    --cocoa-brown: #332927;
+    --orange: #FC462D;
+    --scarlet: #FF1F18;
+    --cobalt: #0252BC;
+    --black: #333333;
+    --purple: #5E18BB;
+    --purple-bg: #F0E3FE;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: var(--white-bg);
+}
+header{
+    background-color: transparent;   
+    margin: 0 2.5%;
+    padding: 0%;
+    height: 4rem;
+    max-height: 5rem;
+    display: flex;
+    text-align: center;
+}
+.logoHeader{
+    background-color: transparent;
+    margin: 0 10px 0 0;
+    border: 0;
+    padding: 0px;
+}
+.imgHeader{
+    height: 2rem;
+}
+.divHeader{
+    background-color: transparent;
+    display: flex;
+    margin-left: 41%;
+    width: 40rem;
+    text-align: center;
+    justify-content: space-between;
+}
+.bi-geo-alt{
+    color: var(--scarlet);
+    font-size: 120%;
+    font-weight: 900;
+}
+.btnLocation{
+    background-color: transparent;
+    text-align: right;
+    width: 90%;
+    height: 60%;
+    margin: 2% 10px 0 0;
+    border: 1px var(--silver);
+    border-style: none solid none none;
+    font-size: 110%;
+    padding: 0 5px;
+}
+.pHeader{
+    width: auto;
+    margin: 0;
+    padding: 0;
+    height: 2.5rem;    
+}
+.aLocation{
+    color: var(--black);
+    text-decoration: none;
+}
+.btnCart{
+    background-color: var(--malachita);
+    color: var(--white);
+    height: 60%;
+    width: 10%;
+    border: 0;
+    border-radius: 10px;
+    font-size: 130%;
+    margin: 2% 0; 
+}
+.bi-cart{
+    color: var(--white);
+    padding: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .location{
+    background-color: aqua;
+    margin: 1% 20%;
+    border-radius: 10px;
+    height: 20rem; 
+} */
+.btnLocationClose{
+    text-align: right;
+    margin: 0 0 0 87.5%;
+    height: 60px;
+    width: 60px;
+    border: 0;
+    border-radius: 100%;
+    padding: 0;
+    background-color: transparent;
+}
+.aLocation{
+    color: black;
+}
+.bi-x-circle-fill{
+    font-size: 350%;
+    border-radius: 100%;
+}
+.h1Location, .h3Location{
+    margin: 2.5% 5%;
+}
+.divLocation{
+    display: flex;
+}
+.descriptionLocation{
+    color: var(--boulder);
+    font-size: 105%;
+    display: flex;
+    align-items: center;
+    margin: 0 5%;
+    width: 90%;
+    border: solid 1px;
+    border-radius: 10px;
+    height: 3rem;
+}
+.btnLocationSearch{
+    background-color: var(--malachita);
+    color: var(--white);
+    font-size: 110%;    
+    margin: 2% 5%;
+    width: 90%;
+    border: 0;
+    border-radius: 10px;
+    height: 3rem;
+}
+
+
+.modalDialog{
+	position: fixed;
+	background: rgba(0,0,0,0.8);
+	opacity:0;
+    width: 100%;
+    padding: 0;
+	pointer-events: none;
+    border-radius: 10px;
+    height: 100%;
+}
+.modalDialog:target {
+	opacity: 1;
+	pointer-events: auto;
+}
+.modalDialog > div {
+	width: 60%;
+    margin: 1% 20%;
+    height: 20rem;
+	position: relative;
+	padding: 1%;
+	border-radius: 10px;
+	background: #fff;
+}
+.close {
+	background: #606061;
+	color: #FFFFFF;
+	position: absolute;
+	right: -12px;
+	text-align: center;
+	top: -10px;
+	width: 24px;
+	text-decoration: none;
+	border-radius: 100%;
+}
+
+
+
+
+.divImg{
+    background-image: url("/imgs/Captura2.jpg");
+    background-size: cover;
+    margin: 3% 2.5%;
+    width: 95%;
+    height: 20rem;
+    border-radius: 15px;
+}
+
+
+
+
+.list{
+    background-color: var(--white);
+    /* background-color: yellow; */
+    margin: 3% 2.5%;
+    max-width: 95%;
+    height: 30rem;
+    border-radius: 15px;
+    display: flex;
+    overflow-x:auto;
+}
+p{
+    /* background-color: crimson; */
+    height: 10rem;
+    width: 17rem;
+    margin: 0;
+    padding: 0;
+    max-height: 27rem;
+    height: 27.5rem;
+}
+.headerList{
+    /* background-color: blue; */
+    padding: 0.5% 5%;
+}
+.divListOffer, .divListPop{
+    /* background-color: orange; */
+    height: 82%;
+    width: 16rem;
+    border-radius: 15px;
+    padding: 0;
+    display: flex;
+}
+.listContainer{
+    /* background-color: blue; */
+    color: black;
+    margin: 0 2.5% ;
+    padding: 0.5% 0;
+    min-width: 15rem;
+    max-width: 15rem;
+}
+.spanList{
+    background-color: var(--purple-bg);
+    font-weight:800;
+    font-size: 90%;
+    color: blueviolet;
+    padding: 1%;
+    border-radius: 15px;
+}
+
+.imgList{
+    /* background-color: aquamarine; */
+    margin: 7.5%;
+}
+.divPrice{
+    /* background-color: red; */
+    padding: 0%;
+    display: flex;
+}
+.h3Price{
+    margin: 2.5% 2.5% 2.5% 0;
+}
+.h3Offer{
+    margin: 2.5% 2.5% 2.5% 0;
+    text-decoration:line-through;
+    color: var(--boulder);
+}
+.h4List{
+    /* background-color: aquamarine; */
+    width: 180px;
+    margin: 5% 0;
+}
+.h5List{
+    /* background-color: aquamarine; */
+    width: 180px;
+    color: var(--boulder);
+    margin: 1% 0;
+    padding: 0%;
+}
+.btnList{
+    background-color: var(--malachita);
+    margin: 5%;
+    border: 0;
+    color: white;
+    border-radius: 5px;
+    height: 3rem;
+    width: 90%;
+    font-size: 115%;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 375px){
+    body{
+        max-width: 375px;
+    }
+    header{
+        height: 10rem;
+        align-items: baseline;
+    }
+    .imgHeader{
+        margin: 0;
+        padding: 0;
+    }
+    .logoHeader{
+        height: 30%;
+        margin: 0;
+        padding: 0;
+    }
+    .divHeader{
+        margin: 0;
+        padding: 0;
+    }
+    .btnLocation{
+        padding: 1% 0 0 0    ;
+        width: 10rem;
+        font-size: 100%;
+        border-style: none;
+    }
+    .btnCart{
+        margin: 0;
+        padding: 0;
+        width: 4rem;
+        height: 3rem;
+    }
+    .pHeader{
+        padding: 0;
+        width: 100%;
+        align-items: baseline;
+    }
+    .imgHeader{
+        height: 100%;
+    }
+    .divImg{
+        background-image: url("/imgs/Captura3.jpg");
+        height: 150px;
+        background-size: cover;
+    }
+    .modalDialog > div {
+        width: 90%;
+        margin: 1% 5%;
+        height: 23rem;
+        position: relative;
+        padding: 1%;
+        border-radius: 10px;
+        background: #fff;
+    }
+
+}

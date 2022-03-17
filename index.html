@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <title>la tiendita</title>
+</head>
+
+<body>
+    <header>
+        <button class="logoHeader">
+            <a class="" href="./index.html">
+                <img class="imgHeader" src="./imgs/Captura.JPG" alt="">
+            </a>
+        </button>
+
+
+        <div class="divHeader">
+            <button id="locacion" class="btnLocation">
+                <a class="aLocation" href="#openModal">
+                    <p id="lugar" class="pHeader"><i class="bi bi-geo-alt"></i> locacion</p>
+                </a>
+            </button>
+            <button class="btnCart">
+                <i class="bi bi-cart">
+                    <span>5</span>
+                </i>
+            </button>
+        </div>
+    </header>
+
+    <div id="openModal" class="modalDialog">
+        <div>
+            <button class="btnLocationClose">
+                <a class="aLocation" href="./index.html">
+                    <i class="bi bi-x-circle-fill"></i>
+                </a>
+            </button>
+            <h1 class="h1Location">¿Dónde quieres recibir tu pedido?</h1>
+            <h3 class="h3Location">Para poder ofrecerte productos dentro de área, necesitamos tu dirección.</h3>
+            <form id="location" action="">
+                <div class="divLocation">
+                    <select class="descriptionLocation" id="inputLocation">
+                        <i style="color:black; font-size: 150%; margin: 0 10px;" class="bi bi-geo-alt"></i>
+                        <option selected disabled> Ingresa tu dirección</option>
+                        <option value="">Bogotá D.C. - Titan Plaza</option>
+                        <option value="">Bogotá D.C. - Mall Center</option>
+                        <option value="">Bogotá D.C. - Plaza de las americas</option>
+                    </select>
+                </div>
+                <button class="btnLocationSearch">Buscar</button>
+            </form>
+        </div>
+    </div>
+
+    <main>
+        <div class="divImg">
+        </div>
+        
+        <h2 class="headerList">Ofertas</h2>
+        <div id="listOff" class="list">
+        </div>
+
+        <h2 class="headerList">Los mas populares</h2>
+        <div id="listPop" class="list">
+        </div>
+
+        <a href=""></a>
+
+
+    </main>
+
+
+
+    <footer>
+
+
+
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+
+</body>
+
+</html>
